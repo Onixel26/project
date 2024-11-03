@@ -5,6 +5,7 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify-es').default;
 const browserSync = require('browser-sync').create();
 
+
 function scripts() {
   return src('app/js/main.js')
     .pipe(concat('main.min.js'))
